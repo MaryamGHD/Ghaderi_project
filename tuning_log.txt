@@ -1,0 +1,20 @@
+================================================================================
+SYSTEMATIC TUNING OF FEEDBACK GAINS G_Ia AND G_Ib
+================================================================================
+
+Testing 11 gain combinations:
+  1. G_Ia=0.0, G_Ib=0.0 - Baseline (no feedback)
+  2. G_Ia=0.1, G_Ib=0.0 - Ia only (weak excitatory)
+  3. G_Ia=0.2, G_Ib=0.0 - Ia only (moderate excitatory)
+  4. G_Ia=0.3, G_Ib=0.0 - Ia only (strong excitatory)
+  5. G_Ia=0.0, G_Ib=0.1 - Ib only (weak inhibitory)
+  6. G_Ia=0.0, G_Ib=0.2 - Ib only (moderate inhibitory)
+  7. G_Ia=0.0, G_Ib=0.3 - Ib only (strong inhibitory)
+  8. G_Ia=0.1, G_Ib=0.1 - Balanced (weak)
+  9. G_Ia=0.2, G_Ib=0.2 - Balanced (moderate)
+  10. G_Ia=0.2, G_Ib=0.3 - Ib > Ia (stable, moderate)
+  11. G_Ia=0.3, G_Ib=0.4 - Ib > Ia (stable, strong)
+
+Loading existing block data...
+  ✗ Block 2 data not found - cannot proceed
+  Please run Block 2 simulation first
